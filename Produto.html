@@ -27,6 +27,16 @@
 			<br/><br/>
 			<input type="submit" name="" value="Receber Mais Informações">
 		</form>
+		<script type="text/javascript">
+			jQuery("form").on("submit", function(){
+				dataLayer.push({
+					event:"Rafaela"
+					nome: jQuery("#nome").val(),
+					email: jQuery(".email").val(),
+					h1: jQuery("h1").text()
+				})
+			})
+		</script>
 		<p><a href="https://rafazenha.github.io/gtm-treinamento/index.html">Voltar para Home<a/></p>
 	</body>
 </html>

@@ -1,0 +1,12 @@
+para id (identificador) #, para classe . (ponto final)
+elementos do html 
+val = imput/elementos do form
+text = pega os textos
+
+como se sabe que o id é id e a classe é a classe 
+e o que fazer quando tem + de 1 classe ou id e vc quer ver todas as q tem
+
+git init
+git add . 
+ git commit -m "correção"/"first ...(esqueci)"
+git push origin master
